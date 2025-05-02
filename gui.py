@@ -7,7 +7,7 @@ class InventarioApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Sistema de Gestión de Inventario")
-        self.root.geometry("800x600")
+        self.root.geometry("800x600") # tamaño del interfaz
         
         # Cambiar el color de fondo del root
         self.root.configure(bg="#f0f0f0")  # Fondo gris claro
